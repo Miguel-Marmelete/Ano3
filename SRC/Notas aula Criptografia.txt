@@ -1,0 +1,23 @@
+principio de kerchoff:
+O inimigo conhece sempre o sistema. Secretismo da chave.
+
+Esteganografia:
+Segurança por obscuridade.
+
+Criptoanálise:
+Estuda o sistema para encontrar pontos fracos e quebrar sistemas criptográficos.
+
+Cifra de playfare:
+
+chave sem caracteres repetidos
+	1 - colocar a chave na tabela;
+	2 - Preencher por ordem alfabetica o restante da tabela, menos as letras que ja estao na chave;
+
+	Encriptar:
+	
+		1 - juntar a mensagem por pares de carateres, se for impar juntar um x
+		2 - Se o par estiver na mesma linha, para encriptar é substituir pelo da frente
+		2 - Se o par estiver na mesma coluna substituir pelo de baixo
+		2 - Se o par estiver em linhas e colunas diferentes, substituir pelo caracter que esta na mesma linha mas na coluna do outro.
+		
+		
